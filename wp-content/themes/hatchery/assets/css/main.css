@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Nexa';
-  src: url(../font/nexa-light.woff2) format('woff2');
+  src: url("http://localhost:8000/wp-content/themes/hatchery/assets/fonts/nexa-light.woff2") format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Nexa';
-  src: url(../font/nexa-bold.woff2) format('woff2');
+  src: url("http://localhost:8000/wp-content/themes/hatchery/assets/fonts/nexa-bold.woff2") format('woff2');
   font-weight: bold;
   font-style: normal;
 }
@@ -418,7 +418,7 @@ a {
     padding: 72px 48px;
     -webkit-clip-path: none;
     clip-path: none;
-    background: url(../images/slant.svg);
+    background: url("http://localhost:8000/wp-content/themes/hatchery/assets/images/slant.svg");
     background-position: top right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -446,7 +446,7 @@ a {
     bottom: 0;
     width: 288px;
     padding: 48px;
-    background: url(../images/slant-right.svg);
+    background: url("http://localhost:8000/wp-content/themes/hatchery/assets/images/slant-right.svg");
     background-position: bottom left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -474,7 +474,7 @@ a {
     height: auto;
     -webkit-clip-path: polygon(0 0, 100% 0, calc(100% - 48vh) 100%, 0 100%);
     clip-path: polygon(0 0, 100% 0, calc(100% - 48vh) 100%, 0 100%);
-    mask: url(../images/mask.svg) top right / cover;
+    mask: url("http://localhost:8000/wp-content/themes/hatchery/assets/images/mask.svg") top right / cover;
   }
   
   .homehero-video-source {
@@ -548,7 +548,7 @@ a {
   .work-list-item:first-child > .work-media {
     -webkit-clip-path: polygon(0 0, 100% 0, calc(100% - 24vh) 100%, 0 100%);
     clip-path: polygon(0 0, 100% 0, calc(100% - 24vh) 100%, 0 100%);
-    mask: url(../img/mask.svg) top right / cover;
+    mask: url("http://localhost:8000/wp-content/themes/hatchery/assets/images/mask.svg") top right / cover;
   }
   
   .work-media-button {

@@ -37,20 +37,20 @@
         <div class="work-media">
           <ul class="work-media-list">
             <li class="work-media-list-item -active">
-              <img src="img/901.jpg" alt="Ong Seong Wu" class="work-media-source">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/101.jpg" alt="Ong Seong Wu" class="work-media-source">
             </li>
             <li class="work-media-list-item">
-              <img src="img/902.jpg" alt="Ong Seong Wu" class="work-media-source">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/102.jpg" alt="Ong Seong Wu" class="work-media-source">
             </li>
           </ul>
-          <button class="work-media-button"><img src="../img/chevron.svg" width="16" height="16" alt="Next" class="work-media-button-icon"></button>
+          <button class="work-media-button"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/chevron.svg" width="16" height="16" alt="Next" class="work-media-button-icon"></button>
         </div>
         <div class="work-info">
           <div class="work-info-container">
             <h2 class="work-info-header">ONG SEONG WU 1st Fan meeting in Singapore (ETERNITY)</h2>
             <!-- TODO: tag work-info-details should be div?  -->
             <h3 class="work-info-details">
-              <img src="../img/calendar.svg" width="16" height="16" alt="Date" class="work-info-details-icon">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/calendar.svg" width="16" height="16" alt="Date" class="work-info-details-icon">
               <span class="work-info-details-text">6 April 2019</span>
             </h3>
             <!-- TODO: should fixed max height container, because after user can add text by wordpress it's container maybe larger & ruin page style -->
@@ -65,19 +65,19 @@
         <div class="work-media">
           <ul class="work-media-list">
             <li class="work-media-list-item -active">
-              <img src="img/801.jpg" alt="Ong Seong Wu" class="work-media-source">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/101.jpg" alt="Ong Seong Wu" class="work-media-source">
             </li>
             <li class="work-media-list-item">
-              <img src="img/802.jpg" alt="Ong Seong Wu" class="work-media-source">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/102.jpg" alt="Ong Seong Wu" class="work-media-source">
             </li>
           </ul>
-          <button class="work-media-button"><img src="../img/chevron.svg" width="16" height="16" alt="Next" class="work-media-button-icon"></button>
+          <button class="work-media-button"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/chevron.svg" width="16" height="16" alt="Next" class="work-media-button-icon"></button>
         </div>
         <div class="work-info">
           <div class="work-info-container">
             <h2 class="work-info-header">ONG SEONG WU 1st Fan meeting in Malaysia (ETERNITY)</h2>
             <h3 class="work-info-details">
-              <img src="../img/calendar.svg" width="16" height="16" alt="Date" class="work-info-details-icon">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/calendar.svg" width="16" height="16" alt="Date" class="work-info-details-icon">
               <span class="work-info-details-text">23 March 2019</span>
             </h3>
             <div class="work-info-content">
@@ -90,7 +90,7 @@
   </section>
 
   <div class="background">
-    <object data="../img/background.svg?v=20190207" type="image/svg+xml" width="1920" height="1324" id="background"></object>
+    <object data="<?php echo get_template_directory_uri(); ?>/assets/images/background.svg" type="image/svg+xml" width="1920" height="1324" id="background"></object>
   </div>
 
   <script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/jquery-3.3.1.min.js"></script>
